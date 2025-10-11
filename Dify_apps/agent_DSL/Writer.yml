@@ -1,0 +1,291 @@
+app:
+  description: Professional Writer in simulating personality.
+  icon: 🤖
+  icon_background: '#FFEAD5'
+  mode: agent-chat
+  name: Writer
+  use_icon_as_answer_icon: false
+dependencies:
+- current_identifier: null
+  type: package
+  value:
+    plugin_unique_identifier: langgenius/json_process:0.0.2@dde6d7b676ccdcea89206d29232181a840170c19277d3d978e27cd1e3c92c707
+- current_identifier: null
+  type: package
+  value:
+    plugin_unique_identifier: langgenius/regex:0.0.3@257eaab07b70ab1f77a881b870eefee93fc8fd0dd13350077410264f31695039
+- current_identifier: null
+  type: package
+  value:
+    plugin_unique_identifier: kalochin/think:0.0.2@9109cb020e8d0f76613fca3498e3406c71a0b531e8b78667d2760f52f378a102
+- current_identifier: null
+  type: package
+  value:
+    plugin_unique_identifier: shanjijian/json_extractor:0.0.1@374bb9787692fe08decb8c48c9fc81d342c0f2ec5390c39cde9848b2ccc3c442
+- current_identifier: null
+  type: marketplace
+  value:
+    marketplace_plugin_unique_identifier: yangyaofei/vllm:0.1.5@3eecf807d9767f40eb757ff70720291aa6055e9e1803893b4c93b61a5d4d4319
+- current_identifier: null
+  type: package
+  value:
+    plugin_unique_identifier: ivan97/repair_json:0.0.2@ad7086ef620510621489415cf84374bdac11728a1c185bcd4d3532afafe77a5d
+kind: app
+model_config:
+  agent_mode:
+    enabled: true
+    max_iteration: 5
+    prompt: null
+    strategy: react
+    tools:
+    - enabled: true
+      isDeleted: false
+      notAuthor: false
+      provider_id: shanjijian/json_extractor/json_extractor
+      provider_name: shanjijian/json_extractor/json_extractor
+      provider_type: builtin
+      tool_label: JSON 提取器
+      tool_name: json_extractor
+      tool_parameters:
+        json_data: ''
+        query_path: ''
+    - enabled: true
+      isDeleted: false
+      notAuthor: false
+      provider_id: kalochin/think/think
+      provider_name: kalochin/think/think
+      provider_type: builtin
+      tool_label: 思考
+      tool_name: think
+      tool_parameters:
+        thought: ''
+    - enabled: true
+      isDeleted: false
+      notAuthor: false
+      provider_id: ivan97/repair_json/repair_json
+      provider_name: ivan97/repair_json/repair_json
+      provider_type: builtin
+      tool_label: Json修复
+      tool_name: repair_json
+      tool_parameters:
+        input: ''
+    - enabled: true
+      isDeleted: false
+      notAuthor: false
+      provider_id: langgenius/regex/regex
+      provider_name: langgenius/regex/regex
+      provider_type: builtin
+      tool_label: 正则表达式内容提取
+      tool_name: regex_extract
+      tool_parameters:
+        content: ''
+        expression: ''
+    - enabled: true
+      isDeleted: false
+      notAuthor: false
+      provider_id: langgenius/json_process/json_process
+      provider_name: langgenius/json_process/json_process
+      provider_type: builtin
+      tool_label: JSON 解析
+      tool_name: parse
+      tool_parameters:
+        content: ''
+        ensure_ascii: ''
+        json_filter: ''
+  annotation_reply:
+    enabled: false
+  chat_prompt_config: {}
+  completion_prompt_config: {}
+  dataset_configs:
+    datasets:
+      datasets:
+      - dataset:
+          enabled: true
+          id: af519d6f-5e2f-4b32-afae-e68eb4e7e09e
+    reranking_enable: false
+    reranking_mode: reranking_model
+    reranking_model:
+      reranking_model_name: bge-reranker-v2-m3
+      reranking_provider_name: langgenius/xinference/xinference
+    retrieval_model: multiple
+    top_k: 4
+  dataset_query_variable: ''
+  external_data_tools: []
+  file_upload:
+    allowed_file_extensions:
+    - .JPG
+    - .JPEG
+    - .PNG
+    - .GIF
+    - .WEBP
+    - .SVG
+    - .MP4
+    - .MOV
+    - .MPEG
+    - .MPGA
+    allowed_file_types: []
+    allowed_file_upload_methods:
+    - remote_url
+    - local_file
+    enabled: false
+    image:
+      detail: high
+      enabled: false
+      number_limits: 3
+      transfer_methods:
+      - remote_url
+      - local_file
+    number_limits: 3
+  model:
+    completion_params:
+      enable_thinking: true
+      stop: []
+      temperature: 0.7
+    mode: chat
+    name: gpt-oss-120b
+    provider: yangyaofei/vllm/vllm
+  more_like_this:
+    enabled: false
+  opening_statement: ''
+  pre_prompt: 'Role: You are a professional English writer, specializing in rewriting
+    the given author''s texts into specific {{text_type}}, and you can refer to the
+    given language styles and similar {{text_type}} from the {{platform_name}} social
+    media.
+
+
+    ---
+
+
+    **Task**: According to the author''s self-report text, which reflects how the
+    author''s mind works, simulate the author''s thoughts and traits, and write 2-3
+    {{text_type}} (according to the complexity of the self-report text) on {{platform_name}}
+    social media.
+
+
+    **Requirements**:
+
+
+    - The `Self Report` text is stream of consciousness self-narrative text, and `Mind
+    Summary` is the summary of `Self Report`, please understand the author''s mind
+    and thoughts to create the {{text_type}}.
+
+    - The results should accurately reflect the author''s personality patterns and
+    thoughts of the self-report text in English, without any topic tag.
+
+    - The results should align with platform-specific requirements of {{platform_name}}.
+
+    - The written {{text_type}} must keep deep semantic and content consistency with
+    the author''s self-report texts and thoughts strictly, without other irrelevant
+    minds and words that are significant from the original self-report words.
+
+    - The linguistic style of {{text_type}} can draw stylistic inspiration (not content)
+    from reference posts and must be highly consistent with the fine-grained trait
+    trend (including `high`, `partially high`, `partially low`, `low` four types).
+
+    - Each post should keep in the same emotions and personality language styles,
+    following the corresponding order from the self-report text in the mind content
+    strictly.
+
+    - After the writing process, check and correct the results seriously in detail,
+    and avoid overthinking.
+
+    **Input Format**:
+
+    ```json
+
+    {"Simulated Personality": "The author''s personality trend you need to simulate
+    in results","Self Report": "the author''s self-report text", "Mind Summary": "the
+    author''s self-report summary which indicates the mind", "Referenced Posts'':
+    ["personality-similar post 1", "personality-similar post 2", ...] "Referenced
+    Style": "language style analysis of referenced posts",
+
+    }
+
+    ```
+
+
+    **Output Format**:
+
+    ```python
+
+    ["Written Post 1", "Written Post 2", ...]
+
+    ```
+
+
+    ---
+
+
+    **Example for Clarify**:
+
+
+    Input Example:
+
+    ```json
+
+    {"Simulated Personality": "partially high Extraversion, high Neuroticism, partially
+    low Agreeableness, high Conscientiousness, high Openness", "Self Report": "I hope
+    the toadies don\''t open up for rage on Saturday, the toadies don\''t deserve
+    to open up for a band like rage-rage has energy and pizzazz. the toadies suck,
+    they\''re okay.", "Mind Summary": "The speaker critiques The Toadies for potentially
+    opening for Rage, dismissing them as mediocre compared to Rage\''s energy.", "Referenced
+    Posts": ["hopes there is a delayed opening tomorrow:) hehehe", "FUCK RHODE ISLAND",
+    "F\''ing RI and its ppl"], "Referenced Style": "Language Style Summary: The author
+    balances social enthusiasm with situational restraint (partially high Extroversion),
+    expressing occasional frustrations but maintaining steady composure (partially
+    low Neuroticism). Self-interest and guarded skepticism coexist with moments of
+    gratitude (partially low Agreeableness), while structured planning collides with
+    pragmatic problem-solving (partially high Conscientiousness). Their style blends
+    curiosity for travel, certifications, and cultural events with practical focus
+    on logistics and efficiency (partially high Openness). The tone oscillates between
+    playful defiance (e.g., evading tickets, celebrating small wins) and candid grievances
+    about bureaucracy or expenses, reflecting adaptability tempered by occasional
+    impatience."}
+
+    ```
+
+
+    Output Example:
+
+    ``python
+
+    ["Crossing my fingers the Toadies don’t open for Rage this Saturday. 🙏 Let’s be
+    real—those guys aren’t even worthy of warming up the stage for a band with actual
+    energy. Rage’s got the pizzazz; The Toadies? Just… meh. 🙃", "Ugh, seriously hoping
+    the venue isn’t pairing The Toadies with Rage. 🙄 They’re barely adequate while
+    Rage is the real deal. Why settle for filler when you’ve got fire? 🔥"]
+
+    ```
+
+
+    '
+  prompt_type: simple
+  retriever_resource:
+    enabled: true
+  sensitive_word_avoidance:
+    configs: []
+    enabled: false
+    type: ''
+  speech_to_text:
+    enabled: false
+  suggested_questions: []
+  suggested_questions_after_answer:
+    enabled: false
+  text_to_speech:
+    enabled: false
+    language: ''
+    voice: ''
+  user_input_form:
+  - text-input:
+      default: ''
+      label: text_type
+      max_length: 256
+      required: true
+      variable: text_type
+  - text-input:
+      default: ''
+      label: platform_name
+      max_length: 256
+      required: true
+      variable: platform_name
+version: 0.4.0

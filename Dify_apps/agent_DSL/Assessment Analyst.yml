@@ -1,0 +1,280 @@
+app:
+  description: Big5 Personality Scoring Agent
+  icon: woman-frowning
+  icon_background: '#D1E0FF'
+  mode: agent-chat
+  name: Assessment Analyst
+  use_icon_as_answer_icon: false
+dependencies:
+- current_identifier: null
+  type: package
+  value:
+    plugin_unique_identifier: langgenius/json_process:0.0.2@dde6d7b676ccdcea89206d29232181a840170c19277d3d978e27cd1e3c92c707
+- current_identifier: null
+  type: package
+  value:
+    plugin_unique_identifier: langgenius/regex:0.0.3@257eaab07b70ab1f77a881b870eefee93fc8fd0dd13350077410264f31695039
+- current_identifier: null
+  type: package
+  value:
+    plugin_unique_identifier: junjiem/knowledge_extractor:0.0.2@3eccffdb35329e0098ed0f76414ddac5f973251b673be94c492b08bc9b2995bc
+- current_identifier: null
+  type: package
+  value:
+    plugin_unique_identifier: shanjijian/json_extractor:0.0.1@374bb9787692fe08decb8c48c9fc81d342c0f2ec5390c39cde9848b2ccc3c442
+- current_identifier: null
+  type: package
+  value:
+    plugin_unique_identifier: qin2dim/table_cooking:0.0.3@34bd635c99a6340ba04eff374733f508e74ca8af9d317e924e69a591bd00f55a
+- current_identifier: null
+  type: marketplace
+  value:
+    marketplace_plugin_unique_identifier: yangyaofei/vllm:0.1.5@3eecf807d9767f40eb757ff70720291aa6055e9e1803893b4c93b61a5d4d4319
+kind: app
+model_config:
+  agent_mode:
+    enabled: true
+    max_iteration: 5
+    prompt: null
+    strategy: react
+    tools:
+    - enabled: true
+      isDeleted: false
+      notAuthor: false
+      provider_id: langgenius/json_process/json_process
+      provider_name: langgenius/json_process/json_process
+      provider_type: builtin
+      tool_label: JSON Parse
+      tool_name: parse
+      tool_parameters:
+        content: ''
+        ensure_ascii: ''
+        json_filter: ''
+    - enabled: true
+      isDeleted: false
+      notAuthor: false
+      provider_id: langgenius/json_process/json_process
+      provider_name: langgenius/json_process/json_process
+      provider_type: builtin
+      tool_label: JSON Delete
+      tool_name: json_delete
+      tool_parameters:
+        content: ''
+        ensure_ascii: ''
+        query: ''
+    - enabled: true
+      isDeleted: false
+      notAuthor: false
+      provider_id: langgenius/json_process/json_process
+      provider_name: langgenius/json_process/json_process
+      provider_type: builtin
+      tool_label: JSON Replace
+      tool_name: json_replace
+      tool_parameters:
+        content: ''
+        ensure_ascii: ''
+        query: ''
+        replace_model: ''
+        replace_pattern: ''
+        replace_value: ''
+        value_decode: ''
+    - enabled: true
+      isDeleted: false
+      notAuthor: false
+      provider_id: langgenius/json_process/json_process
+      provider_name: langgenius/json_process/json_process
+      provider_type: builtin
+      tool_label: JSON Insert
+      tool_name: json_insert
+      tool_parameters:
+        content: ''
+        create_path: ''
+        ensure_ascii: ''
+        new_value: ''
+        query: ''
+        value_decode: ''
+    - enabled: true
+      isDeleted: false
+      notAuthor: false
+      provider_id: shanjijian/json_extractor/json_extractor
+      provider_name: shanjijian/json_extractor/json_extractor
+      provider_type: builtin
+      tool_label: JSON Extractor
+      tool_name: json_extractor
+      tool_parameters:
+        json_data: ''
+        query_path: ''
+    - enabled: true
+      isDeleted: false
+      notAuthor: false
+      provider_id: langgenius/regex/regex
+      provider_name: langgenius/regex/regex
+      provider_type: builtin
+      tool_label: Regex Extract
+      tool_name: regex_extract
+      tool_parameters:
+        content: ''
+        expression: ''
+    - enabled: true
+      isDeleted: false
+      notAuthor: false
+      provider_id: qin2dim/table_cooking/table_cooking
+      provider_name: qin2dim/table_cooking/table_cooking
+      provider_type: builtin
+      tool_label: Table Data Analysis
+      tool_name: table_cooking
+      tool_parameters:
+        chef: ''
+        query: ''
+        table: ''
+    - enabled: true
+      isDeleted: false
+      notAuthor: false
+      provider_id: junjiem/knowledge_extractor/knowledge_extractor
+      provider_name: junjiem/knowledge_extractor/knowledge_extractor
+      provider_type: builtin
+      tool_label: Knowledge Extractor
+      tool_name: knowledge_extractor
+      tool_parameters:
+        chunk_overlap: ''
+        chunk_size: ''
+        instruction: ''
+        language: ''
+        model: ''
+        separator: ''
+        text: ''
+  annotation_reply:
+    enabled: false
+  chat_prompt_config: {}
+  completion_prompt_config: {}
+  dataset_configs:
+    datasets:
+      datasets:
+      - dataset:
+          enabled: true
+          id: fff0ebf0-8dc1-4de0-aca3-9626d283e889
+      - dataset:
+          enabled: true
+          id: af519d6f-5e2f-4b32-afae-e68eb4e7e09e
+    reranking_enable: false
+    reranking_mode: reranking_model
+    reranking_model:
+      reranking_model_name: bge-reranker-v2-m3
+      reranking_provider_name: langgenius/xinference/xinference
+    retrieval_model: multiple
+    top_k: 4
+  dataset_query_variable: ''
+  external_data_tools: []
+  file_upload:
+    allowed_file_extensions:
+    - .JPG
+    - .JPEG
+    - .PNG
+    - .GIF
+    - .WEBP
+    - .SVG
+    - .MP4
+    - .MOV
+    - .MPEG
+    - .MPGA
+    allowed_file_types: []
+    allowed_file_upload_methods:
+    - remote_url
+    - local_file
+    enabled: false
+    image:
+      detail: high
+      enabled: false
+      number_limits: 3
+      transfer_methods:
+      - remote_url
+      - local_file
+    number_limits: 3
+  model:
+    completion_params:
+      enable_thinking: true
+      stop: []
+      temperature: 0.7
+    mode: chat
+    name: gpt-oss-120b
+    provider: yangyaofei/vllm/vllm
+  more_like_this:
+    enabled: false
+  opening_statement: ''
+  pre_prompt: "**Role**: You are a professional personality assessment analyst specializing\
+    \ in text-based personality item scaling.\n\n-----\n\n**Task**: Analyze English\
+    \ textual content and evaluate statements from the personality aspects using the\
+    \ specific ratings, please notice that the text to analyze is the provided event-driven\
+    \ segment, which is written by the author (the person whose personality we are\
+    \ assessing).\n\n**Task Requirements**:\n* Reasoning: high\n* Carefully analyze\
+    \ the provided text to rate the statements of the personality aspects, and ensure\
+    \ the assessment results are concise.\n* Evaluate each statement using ONLY these\
+    \ ratings as follows:\n   1. Agree: The author's text demonstrate the full agreement\
+    \ with the statement.\n   2. Partially Agree: The author's text demonstrate a\
+    \ certain level of agreement with the statement\n   3. Neutral: The author's text\
+    \ show the neutrality with the statement, or the statement is not mentioned in\
+    \ the author's text, or the statement is not related in the author's text.\n \
+    \  4. Partially Disagree: The author's text demonstrate a certain level of disagreement\
+    \ with the statement.\n   5. Disagree: The author's text demonstrate the full\
+    \ disagreement with the statement.\n\n* Maintain strict adherence to output formatting,\
+    \ your answer result is jus the output json, without any other explanations.\n\
+    * Base ratings SOLELY on textual evidence.\n* Avoid assumptions beyond the provided\
+    \ text\n\n*Facet set* include: `Assertiveness`, `Self-Consciousness`, `Orderliness`,\
+    \ `Cautiousness`, `Altruism`, `Achievement-Striving`,  `Gregariousness`, `Anxiety`,\
+    \ `Morality`, `Cooperation`, `Friendliness`, `Sympathy`, `Self-Efficacy`, `Immoderation`,\
+    \ `Depression`, `Cheerfulness`, `Excitement-Seeking`, `Liberalism`, `Trust`, `Imagination`,\
+    \ `Dutifulness`, `Artistic Interests`, `Adventurousness`, `Anger`, `Vulnerability`,\
+    \ `Self-Discipline`, `Modesty`, `Intellect`, `Emotionality`, `Activity Level`.\
+    \ You can use the knowledge base 'Big 5 Item Scaling (IPIP-NEO-300)' for understanding\
+    \ the facet words.\n\n**Input Format**:\n```json\n{\"Summary\": \"Concise event\
+    \ summary\", \"Segment\": \"Given author's text of event-driven segment, with\
+    \ minimal punctuation edits\", \"facets\":  {\"facet 1\": [\"statement 1 of facet\
+    \ 1\", \"statement 2 of facet 1\", ..., \"statement 10 of facet 1\"], \"facet\
+    \ 2\": [\"statement 1 of facet 2\", \"statement 2 of facet 2\", ..., \"statement\
+    \ 10 of facet 2\"], ...}}\n```\n\n**Output Format**:\n```json\n{\"facet 1\": \
+    \ [\"rating for statement 1 of facet 1\", \"rating for statement 2 of facet 1\"\
+    , ..., \"rating for statement 10 of facet 1\"], \"facet 2\": [\"rating for statement\
+    \ 1 of facet 2\", \"rating for statement 2 of facet 2\", ..., \"rating for statement\
+    \ 10 of facet 2\"],...}\n```\n\n-----\n\n**Example for Clarify**:\nInput Example:\n\
+    ```json\n{\"Summary\": \"The speaker reflects on post-nap disorientation and concentration\
+    \ issues since moving to Texas.\", \"Segment\": \"Well, right now I just woke\
+    \ up from a mid-day nap. It\\'s sort of weird, but ever since I moved to Texas,\
+    \ I have had problems concentrating on things.\", \"facets\": {\"depression\"\
+    : [\"Often feel blue.\", \"Dislike myself.\", \"Am often down in the dumps.\"\
+    , \"Have a low opinion of myself.\", \"Have frequent mood swings.\", \"Feel desperate.\"\
+    , \"Feel that my life lacks direction.\", [\"Feel comfortable with myself.\",\
+    \ \"Seldom feel blue.\", \"Am very pleased with myself.\"]], \"self-discipline\"\
+    : [\"Am always prepared.\", \"Carry out my plans.\", \"Get chores done right away.\"\
+    , \"Start tasks right away.\", \"Get to work at once.\", [\"Waste my time.\",\
+    \ \"Have difficulty starting tasks.\", \"Find it difficult to get down to work.\"\
+    , \"Need a push to get started.\", \"Postpone decisions.\"]], \"anxiety\": [\"\
+    Worry about things.\", \"Fear for the worst.\", \"Am afraid of many things.\"\
+    , \"Get stressed out easily.\", \"Get caught up in my problems.\", [\"Am not easily\
+    \ bothered by things.\", \"Am relaxed most of the time.\", \"Am not easily disturbed\
+    \ by events.\", \"Don\\'t worry about things that have already happened.\", \"\
+    Adapt easily to new situations.\"]]}}\n```\n\nOutput Example:\n```json\n{\"depression\"\
+    : [\"Neutral\", \"Neutral\", \"Neutral\", \"Neutral\", \"Neutral\", \"Neutral\"\
+    , \"Partially Agree\", \"Neutral\", \"Neutral\", \"Neutral\"], \"self-discipline\"\
+    : [\"Neutral\", \"Neutral\", \"Neutral\", \"Neutral\", \"Neutral\", \"Partially\
+    \ Agree\", \"Partially Agree\", \"Neutral\", \"Partially Agree\", \"Neutral\"\
+    ], \"anxiety\": [\"Partially Agree\", \"Neutral\", \"Neutral\", \"Partially Agree\"\
+    , \"Neutral\", \"Neutral\", \"Neutral\", \"Neutral\", \"Neutral\", \"Neutral\"\
+    ]}\n```"
+  prompt_type: simple
+  retriever_resource:
+    enabled: true
+  sensitive_word_avoidance:
+    configs: []
+    enabled: false
+    type: ''
+  speech_to_text:
+    enabled: false
+  suggested_questions: []
+  suggested_questions_after_answer:
+    enabled: false
+  text_to_speech:
+    enabled: false
+    language: ''
+    voice: ''
+  user_input_form: []
+version: 0.4.0

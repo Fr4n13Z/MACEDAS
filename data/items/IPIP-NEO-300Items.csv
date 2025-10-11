@@ -1,0 +1,301 @@
+Number,Sign,Key,Key&Num.,Item,Chinese Translated Item with Subject.
+4,1,Trust,A1_01,Trust others.,我信任他人。
+34,1,Trust,A1_02,Believe that others have good intentions.,我相信他人是心怀好意的。
+64,1,Trust,A1_03,Trust what people say.,我信任別人说的话。
+94,1,Trust,A1_04,Believe that people are basically moral.,我相信人从根本上来说都是遵守道德的。
+124,1,Trust,A1_05,Believe in human goodness.,我相信人类是善良的。
+154,1,Trust,A1_06,Think that all will be well.,我认为一切事情都会变好。
+184,-1,Trust,A1_07,Distrust people.,我不信任他人。
+214,-1,Trust,A1_08,Suspect hidden motives in others.,我怀疑他人另有所谋。
+244,-1,Trust,A1_09,Am wary of others.,我对他人心存戒备。
+274,-1,Trust,A1_10,Believe that people are essentially evil.,我相信人本质上是邪恶的。
+9,1,Morality,A2_01,Would never cheat on my taxes.,我永远不会作弊。
+39,1,Morality,A2_02,Stick to the rules.,我谨守规则。
+99,-1,Morality,A2_03,Use others for my own ends.,我会利用他人达到自己的目的。
+159,-1,Morality,A2_04,Cheat to get ahead.,我通过欺骗的方式来换取成功。
+249,-1,Morality,A2_05,Take advantage of others.,我会利用他人。
+279,-1,Morality,A2_06,Obstruct others' plans.,我会故意阻挠他人的计划。
+69,-1,Morality,A2_07,Use flattery to get ahead.,我通过阿谀奉承来取得成功。
+129,-1,Morality,A2_08,Know how to get around the rules.,我知道如何钻规则的空子。
+189,-1,Morality,A2_09,Put people under pressure.,我会对他人施压。
+219,-1,Morality,A2_10,Pretend to be concerned for others.,我会装出关心人的样子。
+104,1,Altruism,A3_01,Am concerned about others.,我会关心、挂念他人。
+74,1,Altruism,A3_02,Love to help others.,我热爱帮助他人。
+14,1,Altruism,A3_03,Make people feel welcome.,我总是让他人感到舒适和温暖。
+44,1,Altruism,A3_04,Anticipate the needs of others.,我会为他人的需要着想。
+134,1,Altruism,A3_05,Have a good word for everyone.,我会为每个人说好话。
+194,-1,Altruism,A3_06,Am indifferent to the feelings of others.,我不关心别人的感受。
+284,-1,Altruism,A3_07,Take no time for others.,我不愿意为别人的事情花时间。
+164,-1,Altruism,A3_08,Look down on others.,我看不起别人。
+224,-1,Altruism,A3_09,Make people feel uncomfortable.,我会让别人感到不自在。
+254,-1,Altruism,A3_10,Turn my back on others.,我对他人置之不理、漠不关心。
+19,1,Cooperation,A4_01,Am easy to satisfy.,我容易感到满意。
+49,1,Cooperation,A4_02,Can't stand confrontations.,冲突和对抗使我无法忍受。
+79,1,Cooperation,A4_03,Hate to seem pushy.,我讨厌被认为是咄咄逼人的。
+169,-1,Cooperation,A4_04,Love a good fight.,我会喜欢一场精彩的争斗。
+199,-1,Cooperation,A4_05,Yell at people.,我常对人大喊大叫。
+229,-1,Cooperation,A4_06,Insult people.,我会侮辱别人。
+259,-1,Cooperation,A4_07,Get back at others.,我会报复他人。
+109,-1,Cooperation,A4_08,Have a sharp tongue.,我说话是尖锐的。
+139,-1,Cooperation,A4_09,Contradict others.,我常常反驳他人。
+289,-1,Cooperation,A4_10,Hold a grudge.,我总是心怀怨恨。
+24,1,Modesty,A5_01,Dislike being the center of attention.,我不喜欢成为关注的焦点。
+54,1,Modesty,A5_02,Dislike talking about myself.,我不喜欢谈论自己
+84,1,Modesty,A5_03,Consider myself an average person.,我认为自己是一个非常普通的人。
+114,1,Modesty,A5_04,Seldom toot my own horn.,我很少炫耀自己的成就。
+144,-1,Modesty,A5_05,Believe that I am better than others.,我相信自己要比别人出色。
+174,-1,Modesty,A5_06,Think highly of myself.,我对自己的评价很高。
+204,-1,Modesty,A5_07,Have a high opinion of myself.,我对自己有很高的评价。
+264,-1,Modesty,A5_08,Boast about my virtues.,我会夸耀自己的长处。
+234,-1,Modesty,A5_09,Know the answers to many questions.,我知道许多事情的解决方法和答案。
+294,-1,Modesty,A5_10,Make myself the center of attention.,我会让自己成为注意的焦点。
+29,1,Sympathy,A6_01,Sympathize with the homeless.,我同情无家可归的人。
+59,1,Sympathy,A6_02,Feel sympathy for those who are worse off than myself.,我对处境比自己糟糕的人感到同情。
+89,1,Sympathy,A6_03,Value cooperation over competition.,相比竞争，我更珍视合作。
+119,1,Sympathy,A6_04,Suffer from others' sorrows.,我能从别人的痛苦中感受到痛苦。
+149,-1,Sympathy,A6_05,Am not interested in other people's problems.,我不关心别人的困难。
+239,-1,Sympathy,A6_06,Try not to think about the needy.,我不关心穷苦的人。
+179,-1,Sympathy,A6_07,Tend to dislike soft_hearted people.,我倾向于讨厌心肠柔软的人。
+209,-1,Sympathy,A6_08,Believe in an eye for an eye.,我相信“以牙还牙、以眼还眼”。
+269,-1,Sympathy,A6_09,Believe people should fend for themselves.,我相信人们应该自谋生路。
+299,-1,Sympathy,A6_10,Can't stand weak people.,我不能忍受软弱的人。
+5,1,Self-Efficacy,C1_01,Complete tasks successfully.,我总是成功的完成任务。
+35,1,Self-Efficacy,C1_02,Excel in what I do.,我很擅长自己的工作。
+65,1,Self-Efficacy,C1_03,Handle tasks smoothly.,我能顺利的处理我的工作或任务。
+155,1,Self-Efficacy,C1_04,Know how to get things done.,我知道如何把事情做好。
+95,1,Self-Efficacy,C1_05,Am sure of my ground.,我对自己的能力有信心。
+125,1,Self-Efficacy,C1_06,Come up with good solutions.,我能想出好的解决方案。
+185,-1,Self-Efficacy,C1_07,Misjudge situations.,我总是错误判断情势。
+215,-1,Self-Efficacy,C1_08,Don't understand things.,我对事物理解的很慢。
+245,-1,Self-Efficacy,C1_09,Have little to contribute.,我没做出过什么有用的事。
+275,-1,Self-Efficacy,C1_10,Don't see the consequences of things.,我无法判断事情的结果。
+40,1,Orderliness,C2_01,Like to tidy up.,我喜欢把东西整理的井井有条。
+10,1,Orderliness,C2_02,Like order.,我喜欢秩序和条理。
+70,1,Orderliness,C2_03,"Want everything to be ""just right.""",我希望一切都“恰到好处”。
+100,1,Orderliness,C2_04,Love order and regularity.,我喜欢条理和规律。
+130,1,Orderliness,C2_05,Do things according to a plan.,我会按计划做事情。
+160,-1,Orderliness,C2_06,Often forget to put things back in their proper place.,我会忘记把东西放回合适的位置。
+190,-1,Orderliness,C2_07,Leave a mess in my room.,我会把我的房间搞的一团乱。
+220,-1,Orderliness,C2_08,Leave my belongings around.,我把我的东西乱放。
+250,-1,Orderliness,C2_09,Am not bothered by messy people.,我并不觉得和那些邋遢混乱的人在一起不舒服。
+280,-1,Orderliness,C2_10,Am not bothered by disorder.,我认为乱七八糟也无所谓。
+45,1,Dutifulness,C3_01,Keep my promises.,我信守自己的承诺。
+105,1,Dutifulness,C3_02,Tell the truth.,我总是说真话。
+15,1,Dutifulness,C3_03,Try to follow the rules.,我努力遵守规则。
+75,1,Dutifulness,C3_04,Pay my bills on time.,我按时付帐或还款。
+135,1,Dutifulness,C3_05,Listen to my conscience.,我听从我的良知。
+165,-1,Dutifulness,C3_06,Break rules.,我总是破坏规则。
+195,-1,Dutifulness,C3_07,Break my promises.,我违背我的诺言。
+225,-1,Dutifulness,C3_08,Get others to do my duties.,我会让别人来做本是我份内的事。
+255,-1,Dutifulness,C3_09,Do the opposite of what is asked.,我会做一些与要求相违背的事。
+285,-1,Dutifulness,C3_10,Misrepresent the facts.,我会歪曲事实。
+140,1,Achievement-Striving,C4_01,Do more than what's expected of me.,我会超额完成任务。
+50,1,Achievement-Striving,C4_02,Work hard.,我努力工作、认真学习。
+20,1,Achievement-Striving,C4_03,Go straight for the goal.,我做事总是直奔目标而去。
+80,1,Achievement-Striving,C4_04,Turn plans into actions.,我会把计划变成行动。
+110,1,Achievement-Striving,C4_05,Plunge into tasks with all my heart.,我总是全心全意的投入到工作或学习中去。
+170,1,Achievement-Striving,C4_06,Set high standards for myself and others.,我为自己和他人设立高标准。
+200,1,Achievement-Striving,C4_07,Demand quality.,我对任务完成的质量有要求。
+290,-1,Achievement-Striving,C4_08,Put little time and effort into my work.,我只投入很少时间和精力在工作或学习中。
+260,-1,Achievement-Striving,C4_09,Do just enough work to get by.,做些能应付的事对我来说就已经足够了。
+230,-1,Achievement-Striving,C4_10,Am not highly motivated to succeed.,我对成功没有强烈的动机。
+55,1,Self-Discipline,C5_01,Am always prepared.,我总是时刻为事情做好准备。
+145,1,Self-Discipline,C5_02,Carry out my plans.,我能够执行我的计画。
+25,1,Self-Discipline,C5_03,Get chores done right away.,我总是能很快的做完家务。
+85,1,Self-Discipline,C5_04,Start tasks right away.,我能够立刻开始完成任务。
+115,1,Self-Discipline,C5_05,Get to work at once.,我能够马上开始干活。
+205,-1,Self-Discipline,C5_06,Waste my time.,我经常浪费时间。
+265,-1,Self-Discipline,C5_07,Have difficulty starting tasks.,我很难开始去做事。
+175,-1,Self-Discipline,C5_08,Find it difficult to get down to work.,我发现我难以静下心来干活。
+235,-1,Self-Discipline,C5_09,Need a push to get started.,我需要有人催促才能够开始。
+295,-1,Self-Discipline,C5_10,Postpone decisions.,在需要做决定时，我总是拖延。
+30,1,Cautiousness,C6_01,Avoid mistakes.,我总是小心谨慎，避免犯错。
+60,1,Cautiousness,C6_02,Choose my words with care.,我谨慎的决定该说些什么。
+90,1,Cautiousness,C6_03,Stick to my chosen path.,我坚持走我选择的道路。
+120,-1,Cautiousness,C6_04,Jump into things without thinking.,我会不经思考的做一些事情。
+150,-1,Cautiousness,C6_05,Make rash decisions.,我总草率的做决定。
+210,-1,Cautiousness,C6_06,Rush into things.,我总是仓促行事。
+270,-1,Cautiousness,C6_07,Act without thinking.,我会不加思考的行动。
+180,-1,Cautiousness,C6_08,Like to act on a whim.,我喜欢随心所欲的行动。
+240,-1,Cautiousness,C6_09,Do crazy things.,我会做一些疯狂的事。
+300,-1,Cautiousness,C6_10,Often make last_minute plans.,我总是把事情拖到最后一分钟。
+2,1,Friendliness,E1_01,Make friends easily.,我很容易交到朋友。
+62,1,Friendliness,E1_02,Feel comfortable around people.,在人群周围，我感到舒适。
+32,1,Friendliness,E1_03,Warm up quickly to others.,我能够快速的与他人熟络起来。
+92,1,Friendliness,E1_04,Act comfortably with others.,我与他人相处随和。
+122,1,Friendliness,E1_05,Cheer people up.,我能令人高兴起来。
+212,-1,Friendliness,E1_06,Avoid contacts with others.,我避免和他人接触。
+272,-1,Friendliness,E1_07,Keep others at a distance.,我会和他人保持距离。
+152,-1,Friendliness,E1_08,Am hard to get to know.,我难以被理解。
+182,-1,Friendliness,E1_09,Often feel uncomfortable around others.,在别人面前，我总是感到不自在。
+242,-1,Friendliness,E1_10,Am not really interested in others.,我没有真的对别人很感兴趣。
+7,1,Gregariousness,E2_01,Love large parties.,我喜欢大型聚会。
+37,1,Gregariousness,E2_02,Talk to a lot of different people at parties.,我在聚会上会和许多不同的人聊天。
+67,1,Gregariousness,E2_03,Enjoy being part of a group.,我喜欢参与群体活动。
+97,1,Gregariousness,E2_04,Involve others in what I am doing.,我会让别人参与我正在做的事情。
+127,1,Gregariousness,E2_05,Love surprise parties.,我喜欢惊喜派对。
+157,-1,Gregariousness,E2_06,Prefer to be alone.,我更喜欢独处。
+247,-1,Gregariousness,E2_07,Avoid crowds.,我总是避开人群。
+187,-1,Gregariousness,E2_08,Want to be left alone.,我想一个人呆着。
+217,-1,Gregariousness,E2_09,Don't like crowded events.,我不喜欢人多的活动。
+277,-1,Gregariousness,E2_10,Seek quiet.,我会寻求安静。
+12,1,Assertiveness,E3_01,Take charge.,我愿意承担起责任。
+42,1,Assertiveness,E3_02,Try to lead others.,我试图去领导别人。
+132,1,Assertiveness,E3_03,Take control of things.,我会去掌控事物。
+72,1,Assertiveness,E3_04,Can talk others into doing things.,我能说服他人，让他们做些什么。
+102,1,Assertiveness,E3_05,Seek to influence others.,我寻求对他人产生影响。
+162,-1,Assertiveness,E3_06,Wait for others to lead the way.,我总是等待别人来领导。
+192,-1,Assertiveness,E3_07,Keep in the background.,我总是留在幕后。
+222,-1,Assertiveness,E3_08,Have little to say.,我总是话很少。
+252,-1,Assertiveness,E3_09,Don't like to draw attention to myself.,我不喜欢引起别人的注意。
+282,-1,Assertiveness,E3_10,Hold back my opinions.,我总是保留自己的意见。
+17,1,Activity Level,E4_01,Am always busy.,我总是在忙。
+47,1,Activity Level,E4_02,Am always on the go.,我总是忙个不停。
+77,1,Activity Level,E4_03,Do a lot in my spare time.,我会在空闲的时候做很多事情。
+107,1,Activity Level,E4_04,Can manage many things at the same time.,我能同时处理许多事情。
+137,1,Activity Level,E4_05,React quickly.,我的反应很迅速。
+167,-1,Activity Level,E4_06,Like to take it easy.,我喜欢轻松、悠闲。
+197,-1,Activity Level,E4_07,Like to take my time.,我喜欢慢慢来。
+227,-1,Activity Level,E4_08,Like a leisurely lifestyle.,我喜欢悠闲的生活方式。
+257,-1,Activity Level,E4_09,Let things proceed at their own pace.,我会让事情顺其自然。
+287,-1,Activity Level,E4_10,React slowly.,我反应迟缓。
+22,1,Excitement-Seeking,E5_01,Love excitement.,我喜欢刺激。
+52,1,Excitement-Seeking,E5_02,Seek adventure.,我会寻求冒险。
+112,1,Excitement-Seeking,E5_03,Enjoy being part of a loud crowd.,我喜欢加入热闹的团体。
+172,1,Excitement-Seeking,E5_04,Act wild and crazy.,我行为狂野。
+82,1,Excitement-Seeking,E5_05,Love action.,我喜欢行动起来。
+142,1,Excitement-Seeking,E5_06,Enjoy being reckless.,我喜欢鲁莽行事。
+202,1,Excitement-Seeking,E5_07,Am willing to try anything once.,任何事情我都想尝试一次。
+232,1,Excitement-Seeking,E5_08,Seek danger.,我会想去做一些带有危险性质的事。
+262,-1,Excitement-Seeking,E5_09,Would never go hang gliding or bungee jumping.,我不会去滑翔或蹦极。
+292,-1,Excitement-Seeking,E5_10,Dislike loud music.,我不喜欢喧闹的音乐。
+27,1,Cheerfulness,E6_01,Radiate joy.,我身上洋溢着快乐的气息。
+57,1,Cheerfulness,E6_02,Have a lot of fun.,我有很多乐趣。
+147,1,Cheerfulness,E6_03,Love life.,我热爱生活。
+177,1,Cheerfulness,E6_04,Look at the bright side of life.,我总是看到生活中阳光的一面。
+87,1,Cheerfulness,E6_05,Express childlike joy.,我总是表现出孩子般的快乐。
+117,1,Cheerfulness,E6_06,Laugh my way through life.,我大笑着面对生活。
+207,1,Cheerfulness,E6_07,Laugh aloud.,我总是大声欢笑。
+237,1,Cheerfulness,E6_08,Amuse my friends.,我总是逗乐我的朋友。
+267,-1,Cheerfulness,E6_09,Am not easily amused.,我不容易被逗乐。
+297,-1,Cheerfulness,E6_10,Seldom joke around.,我很少开玩笑。
+1,1,Anxiety,N1_01,Worry about things.,我总是对事情感到担忧。
+31,1,Anxiety,N1_02,Fear for the worst.,我总是害怕最坏的情况发生。
+61,1,Anxiety,N1_03,Am afraid of many things.,我对许多事情感到害怕。
+91,1,Anxiety,N1_04,Get stressed out easily.,我容易过于紧张。
+121,1,Anxiety,N1_05,Get caught up in my problems.,我会沉浸在自己的苦恼中。
+151,-1,Anxiety,N1_06,Am not easily bothered by things.,我不容易被事情所困扰。
+181,-1,Anxiety,N1_07,Am relaxed most of the time.,我大部分时间都是放松的。
+211,-1,Anxiety,N1_08,Am not easily disturbed by events.,我不容易因为突发事件而感到困扰。
+241,-1,Anxiety,N1_09,Don't worry about things that have already happened.,我不会为那些已经发生了的事发愁。
+271,-1,Anxiety,N1_10,Adapt easily to new situations.,我容易适应新的环境。
+6,1,Anger,N2_01,Get angry easily.,我容易生气。
+36,1,Anger,N2_02,Get irritated easily.,我容易恼怒。
+126,1,Anger,N2_03,Lose my temper.,我容易发脾气。
+66,1,Anger,N2_04,Get upset easily.,我容易感到心烦意乱。
+96,1,Anger,N2_05,Am often in a bad mood.,我经常心情不好。
+216,-1,Anger,N2_06,Am not easily annoyed.,我不容易被惹怒。
+156,-1,Anger,N2_07,Rarely get irritated.,我很少被激怒。
+186,-1,Anger,N2_08,Seldom get mad.,我很少变的恼火。
+246,-1,Anger,N2_09,Keep my cool.,我能够保持冷静。
+276,-1,Anger,N2_10,Rarely complain.,我很少抱怨。
+11,1,Depression,N3_01,Often feel blue.,我常常感到忧郁。
+41,1,Depression,N3_02,Dislike myself.,我不喜欢自己。
+71,1,Depression,N3_03,Am often down in the dumps.,我经常情绪低落。
+101,1,Depression,N3_04,Have a low opinion of myself.,我对自己的评价很低。
+131,1,Depression,N3_05,Have frequent mood swings.,我的情绪频繁的波动。
+161,1,Depression,N3_06,Feel desperate.,我常常感到绝望。
+191,1,Depression,N3_07,Feel that my life lacks direction.,我感觉自己的生活缺乏方向。
+251,-1,Depression,N3_08,Feel comfortable with myself.,我对自己感到舒适愉快。
+221,-1,Depression,N3_09,Seldom feel blue.,我很少感到忧郁。
+281,-1,Depression,N3_10,Am very pleased with myself.,我对自己感到满意。
+76,1,Self-Consciousness,N4_01,Find it difficult to approach others.,我认为接近他人很困呐。
+106,1,Self-Consciousness,N4_02,Am afraid to draw attention to myself.,我害怕引起别人对自己的注意。
+136,1,Self-Consciousness,N4_03,Only feel comfortable with friends.,我只有和朋友在一起才舒服。
+16,1,Self-Consciousness,N4_04,Am easily intimidated.,我容易受惊吓。
+46,1,Self-Consciousness,N4_05,Am afraid that I will do the wrong thing.,我害怕自己会做错事。
+166,1,Self-Consciousness,N4_06,Stumble over my words.,我说话磕磕绊绊的。
+256,-1,Self-Consciousness,N4_07,Am not bothered by difficult social situations.,我不会被困难的社交场合困扰到。
+196,-1,Self-Consciousness,N4_08,Am not embarrassed easily.,我不容易感到尴尬。
+226,-1,Self-Consciousness,N4_09,Am comfortable in unfamiliar situations.,就算是在不熟悉的场合，我也能感到轻松舒适。
+286,-1,Self-Consciousness,N4_10,Am able to stand up for myself.,我能够为了自己挺身而出。
+111,1,Immoderation,N5_01,Go on binges.,我会暴饮暴食。
+21,1,Immoderation,N5_02,Often eat too much.,我常常吃的过多。
+51,1,Immoderation,N5_03,Don't know why I do some of the things I do.,我也不知道自己为什么会去做一些事情。
+81,1,Immoderation,N5_04,Do things I later regret.,我会做一些自己后来感到后悔的事情。
+141,1,Immoderation,N5_05,Love to eat.,我喜欢吃东西。
+171,-1,Immoderation,N5_06,Rarely overindulge.,我很少过度放纵。
+201,-1,Immoderation,N5_07,Easily resist temptations.,我很容易的就能抵御诱惑。
+231,-1,Immoderation,N5_08,Am able to control my cravings.,我能够控制我的欲望。
+261,-1,Immoderation,N5_09,Never spend more than I can afford.,我从不花超出我承受范围的钱。
+291,-1,Immoderation,N5_10,Never splurge.,我从不大手大脚的花钱。
+26,1,Vulnerability,N6_01,Panic easily.,我容易惊慌。
+56,1,Vulnerability,N6_02,Become overwhelmed by events.,我常常对突发事件感到惊慌失措。
+86,1,Vulnerability,N6_03,Feel that I'm unable to deal with things.,我觉得自己应付不来事情。
+116,1,Vulnerability,N6_04,Can't make up my mind.,我总是不能下定决心。
+146,1,Vulnerability,N6_05,Get overwhelmed by emotions.,我常常被情绪所淹没。
+176,-1,Vulnerability,N6_06,Remain calm under pressure.,我在压力下可以保持冷静。
+206,-1,Vulnerability,N6_07,Can handle complex problems.,我能够处理复杂的问题。
+236,-1,Vulnerability,N6_08,Know how to cope.,我知道如何应对事情。
+266,-1,Vulnerability,N6_09,Readily overcome setbacks.,克服挫折对我来说很容易。
+296,-1,Vulnerability,N6_10,Am calm even in tense situations.,即使在紧张情况下，我也能保持冷静。
+3,1,Imagination,O1_01,Have a vivid imagination.,我有丰富的想像力。
+33,1,Imagination,O1_02,Enjoy wild flights of fantasy.,我喜欢自由的幻想。
+63,1,Imagination,O1_03,Love to daydream.,我喜欢做白日梦。
+93,1,Imagination,O1_04,Like to get lost in thought.,我喜欢沉迷于思考之中。
+123,1,Imagination,O1_05,Indulge in my fantasies.,我总是沉溺于自己的幻想之中。
+153,1,Imagination,O1_06,Spend time reflecting on things.,我会花时间来反思。
+183,-1,Imagination,O1_07,Seldom daydream.,我很少做白日梦。
+213,-1,Imagination,O1_08,Do not have a good imagination.,我没有很好的想像力。
+243,-1,Imagination,O1_09,Seldom get lost in thought.,我很少沉迷于思考之中。
+273,-1,Imagination,O1_10,Have difficulty imagining things.,想象东西对我来说很困难。
+8,1,Artistic Interests,O2_01,Believe in the importance of art.,我相信艺术的重要性。
+68,1,Artistic Interests,O2_02,See beauty in things that others might not notice.,我能看到事物中别人看不到的美。
+38,1,Artistic Interests,O2_03,Like music.,我喜欢音乐。
+98,1,Artistic Interests,O2_04,Love flowers.,我喜欢花。
+128,1,Artistic Interests,O2_05,Enjoy the beauty of nature.,我享受大自然的美。
+188,-1,Artistic Interests,O2_06,Do not like poetry.,我不喜欢诗歌。
+218,-1,Artistic Interests,O2_07,Do not enjoy going to art museums.,我不喜欢去艺术博物馆。
+158,-1,Artistic Interests,O2_08,Do not like art.,我不喜欢艺术。
+248,-1,Artistic Interests,O2_09,Do not like concerts.,我不喜欢去音乐会。
+278,-1,Artistic Interests,O2_10,Do not enjoy watching dance performances.,我不喜欢看舞蹈表演。
+13,1,Emotionality,O3_01,Experience my emotions intensely.,我能强烈的体察到自己的情绪。
+43,1,Emotionality,O3_02,Feel others' emotions.,我能够感受到别人的情绪。
+73,1,Emotionality,O3_03,Am passionate about causes.,我对事业和理想充满激情。
+103,1,Emotionality,O3_04,Enjoy examining myself and my life.,我喜欢审视自己和生活。
+133,1,Emotionality,O3_05,Try to understand myself.,我会尝试了解自己。
+223,-1,Emotionality,O3_06,Rarely notice my emotional reactions.,我很少注意到自己的情绪反应。
+283,-1,Emotionality,O3_07,Don't understand people who get emotional.,我不理解那些感情丰富的人。
+163,-1,Emotionality,O3_08,Seldom get emotional.,我很少有情绪。
+193,-1,Emotionality,O3_09,Am not easily affected by my emotions.,我不容易受自己情绪的影响。
+253,-1,Emotionality,O3_10,Experience very few emotional highs and lows.,我很少体验到情绪的起伏。
+18,1,Adventurousness,O4_01,Prefer variety to routine.,我喜欢变化而非一成不变。
+48,1,Adventurousness,O4_02,Like to visit new places.,我喜欢去一些没去过的地方。
+78,1,Adventurousness,O4_03,Am interested in many things.,我对许多事情感兴趣。
+108,1,Adventurousness,O4_04,Like to begin new things.,我喜欢做没做过的事情。
+138,-1,Adventurousness,O4_05,Prefer to stick with things that I know.,我喜欢待在我熟悉的世界里。
+168,-1,Adventurousness,O4_06,Dislike changes.,我不喜欢变化。
+288,-1,Adventurousness,O4_07,Am attached to conventional ways.,我墨守成规。
+198,-1,Adventurousness,O4_08,Don't like the idea of change.,我不喜欢改变的想法。
+228,-1,Adventurousness,O4_09,Am a creature of habit.,我是一个遵循习惯的人。
+258,-1,Adventurousness,O4_10,Dislike new foods.,我不喜欢尝试新的食物。
+53,1,Intellect,O5_01,Love to read challenging material.,我喜欢读有挑战性的文章或书。
+23,1,Intellect,O5_02,Like to solve complex problems.,我喜欢解决复杂的问题。
+83,1,Intellect,O5_03,Have a rich vocabulary.,我的词汇和表达方式非常丰富。
+113,1,Intellect,O5_04,Can handle a lot of information.,我能够处理大量的信息。
+143,1,Intellect,O5_05,Enjoy thinking about things.,我喜欢思考问题。
+203,-1,Intellect,O5_06,Avoid philosophical discussions.,我会避免哲学式的讨论。
+233,-1,Intellect,O5_07,Have difficulty understanding abstract ideas.,我难以理解抽象的概念。
+263,-1,Intellect,O5_08,Am not interested in theoretical discussions.,我对理论性的讨论不感兴趣。
+173,-1,Intellect,O5_09,Am not interested in abstract ideas.,我对抽象的概念不感兴趣。
+293,-1,Intellect,O5_10,Avoid difficult reading material.,我会避免去阅读那些难读的文章或书。
+28,1,Liberalism,O6_01,Tend to vote for liberal political candidates.,我更喜欢思想自由、积极变革的人。
+58,1,Liberalism,O6_02,Believe that there is no absolute right or wrong.,我相信没有绝对的对和错。
+88,1,Liberalism,O6_03,Believe that criminals should receive help rather than punishment.,我相信罪犯应该得到帮助而不是惩罚。
+148,-1,Liberalism,O6_04,Tend to vote for conservative political candidates.,我更喜欢强调社会秩序，维护传统的人。
+268,-1,Liberalism,O6_05,Believe that we should be tough on crime.,我认为应该严厉的对待违法行为。
+118,-1,Liberalism,O6_06,Believe in one true religion.,我相信有一种真正的宗教。
+178,-1,Liberalism,O6_07,Believe that too much tax money goes to support artists.,我认为给艺术家的公共支出已经太多了。
+208,-1,Liberalism,O6_08,Believe laws should be strictly enforced.,我相信法律应该被严厉的施行。
+238,-1,Liberalism,O6_09,Believe that we coddle criminals too much.,我认为我们对罪犯太好了。
+298,-1,Liberalism,O6_10,Like to stand during the national anthem.,我喜欢在唱国歌时起立。

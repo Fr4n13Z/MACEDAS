@@ -1,0 +1,1 @@
+Model: glove.42B.300d.word2vec
