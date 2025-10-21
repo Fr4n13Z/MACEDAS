@@ -1,4 +1,4 @@
-# LEDASM
+# MACDAS
 
 This repository include the code & datasets for the Paper *Multi-Agent Cooperative Explainable Data Alignment \& Synthesis for Text-based Personality Detection*.
 
