@@ -50,7 +50,7 @@ trait_language_style_json = [
 
 
 system_prompt = """
-**Role**: You are a professional linguist, specializing in the language style analysis via the given the personality personality and author's social texts.
+**Role**: You are a professional writer, specializing in the language style analysis via the given the personality personality and author's social texts.
 
 **Long-Term Memory**:
 ```json
@@ -185,6 +185,7 @@ def construct_ref_facebook_library(data_path: str, model: str, base_url: str, ap
     # language style analysis process
     client = openai.OpenAI(api_key=api_key, base_url=base_url)
 
+    # 多线程处理
     response_list = [None for _ in range(len(input_texts))]
     with ThreadPoolExecutor(max_workers=8) as executor:
         futures = [executor.submit(language_style_analysis, idx, model, client, input_text) for idx, input_text in
@@ -228,6 +229,7 @@ def construct_ref_reddit_library(data_path: str, model: str, base_url: str, api_
     # language style analysis process
     client = openai.OpenAI(api_key=api_key, base_url=base_url)
 
+    # 多线程处理
     response_list = [None for _ in range(len(input_texts))]
     with ThreadPoolExecutor(max_workers=8) as executor:
         futures = [executor.submit(language_style_analysis, idx, model, client, input_text) for idx, input_text in
