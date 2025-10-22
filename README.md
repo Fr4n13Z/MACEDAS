@@ -1,6 +1,4 @@
-# LEDASM
 
-This repository include the code & datasets for the Paper *LLM-based Explainable Data Alignment & Synthesis for Text-based Personality Detection*.
 
 ## Environment
 
