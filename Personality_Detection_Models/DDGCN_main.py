@@ -166,7 +166,7 @@ def parse_options(name: str = "D-DGCN"):
     parser.add_argument("--adam_epsilon", default=1e-6, type=float, help="Epsilon for Adam optimizer.")
     parser.add_argument('--save_best_fold_model', type=bool, default=False, help="save the best fold model results")
 
-    parser.add_argument('--kfold_num', type=int, default=5, help="The number of folds for k-fold cross-validation")
+    parser.add_argument('--kfold_num', type=int, default=10, help="The number of folds for k-fold cross-validation")
     args = parser.parse_args()
     return args
 

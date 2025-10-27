@@ -133,7 +133,7 @@ def parse_options(name: str = "DEN"):
                         help="The pretrained model learning rate")
     parser.add_argument('--save_best_fold_model', type=bool, default=False,
                         help="save the best fold model Results")
-    parser.add_argument('--kfold_num', type=int, default=5, help="The number of folds for k-fold cross-validation")
+    parser.add_argument('--kfold_num', type=int, default=10, help="The number of folds for k-fold cross-validation")
     args = parser.parse_args()
     return args
 

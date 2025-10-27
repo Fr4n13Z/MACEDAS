@@ -52,7 +52,7 @@ def parse_options(name: str = "EERPD"):
     parser.add_argument('--logger_path', type=str, default='./Results/EERPD/EERPD_finegrained')
 
     parser.add_argument('--alpha', type=float, default=0.5)
-    parser.add_argument('--kfold_num', type=int, default=5, help="The number of folds for k-fold cross-validation")
+    parser.add_argument('--kfold_num', type=int, default=10, help="The number of folds for k-fold cross-validation")
 
     parser.add_argument("--without_kfold", type=bool, default=True)
 
